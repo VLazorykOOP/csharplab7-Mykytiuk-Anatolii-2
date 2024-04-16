@@ -21,5 +21,21 @@ namespace Lab7CSharp
         {
 
         }
+
+        private void Dupbutton_Click(object sender, EventArgs e)
+        {
+            Form1 newForm = new Form1();
+            newForm.Show();
+        }
+
+        private void Exbutton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
